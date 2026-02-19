@@ -6,7 +6,6 @@ app.get("/", (req, res) => {
   res.send("Travsiam CRM Live 🚀");
 });
 
-// IMPORTANT
 const PORT = process.env.PORT;
 
 app.listen(PORT, "0.0.0.0", () => {
